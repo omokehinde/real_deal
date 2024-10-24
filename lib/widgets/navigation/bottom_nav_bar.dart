@@ -15,7 +15,7 @@ class BottomNavBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.only(
+      padding: const EdgeInsets.only(
         left: Constants.defaultPadding * 3,
         right: Constants.defaultPadding * 3,
         bottom: Constants.defaultPadding,
@@ -58,7 +58,9 @@ class BottomNavBar extends StatelessWidget {
       child: Container(
         padding: const EdgeInsets.all(12),
         decoration: BoxDecoration(
-          color: isSelected ? AppColors.primary : Colors.transparent,
+          color: isSelected 
+            ? AppColors.primary 
+            : Colors.black, 
           shape: BoxShape.circle,
         ),
         child: Icon(
