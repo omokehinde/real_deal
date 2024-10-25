@@ -18,7 +18,7 @@ class PropertyAddressPill extends StatelessWidget {
       margin: const EdgeInsets.symmetric(horizontal: 16),
       padding: const EdgeInsets.only(left: 20, right: 8),
       decoration: BoxDecoration(
-        color: Colors.white.withOpacity(0.4), // Set background to semi-transparent white
+        color: Colors.white.withOpacity(0.5), // Set background to semi-transparent white
         borderRadius: BorderRadius.circular(50),
       ),
       child: Row(

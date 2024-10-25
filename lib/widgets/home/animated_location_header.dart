@@ -67,13 +67,10 @@ class AnimatedLocationHeader extends StatelessWidget {
                 ),
                 CircleAvatar(
                   radius: 20,
-                  backgroundColor: AppColors.secondary.withOpacity(0.1),
-                  child: const Icon(
-                    Icons.person_outline,
-                    color: AppColors.primary,
-                    size: 20,
-                  ),
+                  backgroundColor: AppColors.secondary,
+                  backgroundImage: AssetImage('assets/images/profile_pic.jpg'),
                 ),
+
               ],
             ),
             const SizedBox(height: 16),

@@ -36,7 +36,7 @@ class AnimatedPropertyCard extends StatelessWidget {
                 decoration: BoxDecoration(
                   color: AppColors.divider,
                   image: const DecorationImage(
-                    image: AssetImage('assets/placeholder.jpg'),
+                    image: AssetImage('assets/images/property.jpg'),
                     fit: BoxFit.cover,
                   ),
                 ),
